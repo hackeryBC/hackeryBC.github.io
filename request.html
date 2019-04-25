@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-CA">
+ <head>
+  <title>The Hackery :: Request a Pickup</title>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="Rating" content="General" />
+  
+  <link rel="stylesheet" type="text/css" href="styling/reset.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="styling/style.css" media="screen" />
+  <link rel="icon" type="image/vnd.microsoft.icon" href="styling/favicon.ico" /> <!--standard-->
+  <link rel="SHORTCUT ICON" href="styling/favicon.ico" /> <!--for MS IE-->
+  <link rel="index" type="text/html" href="index.html" title="The Hackery" />
+  <link rel="next" type="text/html" href="index.html" title="The Hackery" />
+  <link rel="prev" type="text/html" href="recycling.html" title="Laptop and Monitor Recycling" />
+ </head>
+ <body>
+  <div id="wrap">
+   <div id="header">
+    <h1><a href="index.html" title="thehackery.ca Home">The Hackery</a></h1>
+    <dl id="menu">
+     <dt><a href="index.html">Home</a></dt>
+     <!-- <dt><a href="#">Sale</a></dt>-->
+     <dt><a href="parts.html">Parts</a></dt>
+     <dt><a href="repair.html">Repair</a></dt>
+     <dt class="selected"><a href="recycling.html">Recycling</a></dt>
+     <dt><a href="contact.html">Contact</a></dt>
+    </dl>
+   </div>
+   <div id="content" class="clear">
+    <h1>Electronics Pick Up Request Form</h1>
+	<p>Fill out this form to schedule an e-waste pick up for your business. Our pick up service is free in the Vancouver/Burnaby/Richmond area. Customers outside this area should call or e-mail us to inquire about pickup rates.</p>
+	<p>Standard pick ups are performed on <u>Wednesdays</u>. Please indicate below if you require a pick up on an alternate day.</p>
+
+	<p>After completing the form, you will receive an email in 1 to 2 business days confirming your request.<p>Thank you.</p></p><br></br>
+    <!--
+    -->
+	<form method="POST" action="request.php">
+     <table>
+      <tr>
+       <td><label for="id_company">Company Name:</label></td>
+       <td><input type="text" name="company" required/></td>
+      </tr>
+      <tr>
+       <td><label for="id_contact">Contact Name:</label></td>
+       <td><input type="text" name="contact" required/></td>
+      </tr>
+	  <tr>
+	   <td><label for="id_phone">Contact Phone Number:</label></td>
+	    <td><input type="text" name="phone" required/></td>
+	  </tr>
+	  <tr>
+	         <td><label for="id_email">Contact Email:</label></td>
+			        <td><input type="email" required name="email"/></td>
+					      </tr>
+		<tr>
+		       <td><label for="id_address">Pick Up Address:</label></td>
+			          <td><input type="text" name="address" required/></td>
+					        </tr>
+
+		<tr>
+		               <td><label for="id_time">When will this equipment be ready for pick up:</label></td>
+					                         <td><input type="text" name="time" required/></td>
+											                             </tr>
+		<tr>
+		       <td><label for="id_hours">Between what hours can your e-waste be picked up:</label></td>
+			          <td><input type="text" name="hours" required/></td>
+					        </tr>
+		<tr id="comments">
+		               <td><label for="id_time">Don't fill out this field</label></td>
+					                         <td><input type="text" name="comments"/></td>
+											                             </tr>
+        <script>
+            document.getElementById('comments').style.display = 'none';
+        </script>
+      <tr>
+       <td><label for="id_skid">Equipment wrapped on skids</label></td>
+       <td><input type="checkbox" name="skid" value="yes"/></td>
+      </tr>
+		<tr>
+		       <td><label for="id_stairs">Needs to be carried up/down stairs without elevator</label></td>
+			          <td><input type="checkbox" name="stairs" value="yes"/></td>
+					        </tr>
+	  <tr>
+	         <td><label for="id_parking">Off-street parking available</label></td>
+			        <td><input type="checkbox" name="parking" value="yes"/></td>
+					      </tr>
+		<tr>
+		       <td><label for="id_ewaste">Briefly describe the kind and quantity of e-waste:</label></td>
+			          <td><textarea name="ewaste"></textarea></td>
+					        </tr>
+     </table>
+     <input type="submit"/>
+    </form> 
+   </div>
+  </div>
+  <div id="footer">
+			<div>
+				<ul>
+					<li>304 Victoria Drive; Vancouver, BC V5L 4C7</li>
+					<li>778-373-8295</li>
+					<li>Tues-Sat 11am-6pm</li>
+					<td width="16%"><a href="http://facebook.com/thehackery" target="_blank"><img src="images/fbicon_20x20.gif" alt="facebook" width="20" height="20" border="0"></a></td>
+					<td width="16%"><a href="http://twitter.com/thehackery" target="_blank"><img src="images/twittericon_20x20.gif" alt="twitter" width="20" height="20" border="0"></a></td>
+					<td width="13%"><a href="http://www.youtube.com/user/thehackery" target="_blank"><img src="images/youtubeicon_20x20.gif" alt="YouTube" width="20" height="20" border="0"></a></td>
+					</ul>
+					<br>
+					<ul>
+					<li>4712 Marine Ave; Powell River, BC V8A 2L4</li>
+					<li>1-844-483-8295</li>
+					<li>Tues-Sat 12pm-5pm</li>
+
+				</ul>
+					<p><center>Copyright &#169; 2008-2018 Emma's Hackery Services Inc.</center></p>
+			</div>
+  </div>
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118821138-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118821138-1');
+</script>
+ </body>
+</html>

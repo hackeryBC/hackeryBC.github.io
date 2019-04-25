@@ -1,0 +1,36 @@
+Monitor repair kit for Nintendo (Sanyo 20-EZV R-B,C) Monitors
+
+1 - 1 UF @ 50V
+2 - 1 UF @ 250V
+3 - 10 UF @ 50V
+2 - 10 UF @ 350V
+1 - 22 UF @ 50V
+1 - 47 UF @ 50V
+1 - 100 UF @ 25V
+2 - 100 UF @ 250V
+1 - 220 UF @ 25V
+1 - 330 UF @ 25V
+
+Install the following parts
+
+C301 - 10 UF @ 50V
+C302 - 1 UF @ 50V
+C303 - 10 UF @ 50V
+C406 - 10 UF @ 50V
+C407 - 10 UF @ 350V
+C408 - 1 UF @ 250V
+C410 - 100 UF @ 250V
+C458 - 47 UF @ 50V
+C459 - 100 UF @ 25V
+C464 - 22 UF @ 50V
+C467 - 1 UF @ 250V
+C468 - 330 UF @ 25V
+C469 - 220 UF @ 25V
+C471 - 10 UF @ 200V
+C472 - 100UF @ 250V
+
+Kit (number 01-4198)  can be bought here - http://www.competitiveproducts.com/list.php?id=219
+
+In the Vancouver, BC  area you can have them installed at The Hackery - contact us at 778-373-8295 ext 2
+
+---++ http://thehackery.ca ++---

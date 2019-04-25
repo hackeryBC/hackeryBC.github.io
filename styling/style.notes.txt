@@ -1,0 +1,136 @@
+/* style.notes.txt for thehackery.ca's style.css. Each comment applies to the corresponding line number in the css */
+
+/************* Core Styles *************/
+
+/* Set up content areas to push footer down */
+
+/* Establish some basic, typographical defaults */
+
+
+/* IE centering hack */
+/*white*/
+
+
+/*--------- Links ---------*/
+
+/*blue*/
+/* medium gray */
+/* red */
+/* red */
+
+
+
+
+/* black */
+
+/*--------- Headings ---------*/
+/* Margins in the following definititions are to keep text (regardless of size) aligned to a "baseline grid" (1.5em), as defined in the "body" */
+/* inherits body color (black) */
+/* Remove spacing for the very first content header */
+/*red*/
+
+
+
+
+/*--------- Main Content Definitions ---------*/
+
+
+
+/* Combined with the <dt> and <dd> padding, the padding makes a standard, 1em space like <p> */
+/* Add a bit of space to make terms and definitions easier to read */
+/* Float the terms so the definitions will follow immediately after, bold the term, and automatically add spacing before the definition. */
+
+
+/* Add a touch of spacing between list items for easier reading */
+
+/* black */
+/* Set up ability to add captions to images, and set up classes to control image positioning */
+
+
+
+/* prevent collapsing div in IE */
+
+/* Force caption below the image */
+
+
+/************* Layout & Positioned Styles *************/
+/* Center content, prepare header/footer, set widths */
+/* The extra footer div is needed to ensure its content stays centered relative to the primary content in #wrap */
+
+/* Center content (standard) */
+/* IE centered content counter hack */
+
+/* Leaves space for the sticky footer to be pulled up on the bottom. Must be same as the footer height (+ #content's padding) as the footer (include the footer's padding in the total height)!! */
+
+/* Columns to hold feature "blurbs" for home page */
+
+
+
+
+/* Make footer stick to the bottom of the page regardless of browser */
+
+
+/* Negative value of footer height (including padding and border)!! Pulls footer into the content's padding. */
+
+/* black */
+
+/* black */
+/*Keep all text within the footer small without affecting the div width*/
+/* Horizontal list to create separation without HTML characters, similar to definition list */
+
+/* medium gray--tone down color (from black) to prevent distraction */
+
+/* Define space for the header and images */
+/* Set position so the <h1> can be positioned within this <div> */
+/* Set height to hold space open */
+
+/* black */
+
+
+
+
+
+/*move down to account for padding*/
+
+
+
+/*hide text in lieu of img*/
+
+/* Set up "Home" link in header */
+/* Helps keep image centered within the menu */
+/* Force the click area to fill the defined space */
+
+
+/* Change pattern on rollover */
+
+/*--------- Site Navigation ---------*/
+
+/* black */
+/* Style the main categories */
+
+
+/* black */
+
+
+/* Style the links */
+/* Gives extra space for the user to click & extends area, making a bar */
+
+/* black */
+
+/* red */
+/* white */
+
+/* medium grey */
+
+/*--------- Misc. ---------*/
+
+/* Needed to ensure footer stays stuck to the bottom of the page across browsers */
+
+
+
+
+
+
+
+/* Hide from IE-mac */
+/* Hide from IE-mac */

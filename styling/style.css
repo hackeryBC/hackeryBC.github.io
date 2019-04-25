@@ -1,0 +1,253 @@
+/* style.css for thehackery.ca */
+
+/************* Core Styles *************/
+
+html, body, #wrap{height:100%;}
+body > #wrap{height:auto; min-height:100%;}
+body{
+	font:90% Arial,sans-serif;
+	line-height:1.5em;
+	text-align:center;
+	background:#fff;
+}
+
+/*--------- Links ---------*/
+
+a{text-decoration:none; color:#00c; border-bottom:thin dotted #00c;}
+a:visited{color:#999; border-color:#999;}
+a:hover, a:active{color:#c00; border-color:#c00;}
+h1 a, h1 a:visited, h1 a:hover, h1 a:active{color:#c00; border:none;}
+h2 a, h2 a:visited, h2 a:hover, h2 a:active,
+h3 a, h3 a:visited, h3 a:hover, h3 a:active,
+h4 a, h4 a:visited, h4 a:hover, h4 a:active,
+h5 a, h5 a:visited, h5 a:hover, h5 a:active,
+h6 a, h6 a:visited, h6 a:hover, h6 a:active{color:#000; border:none;}
+
+/*--------- Headings ---------*/
+
+h1, h2, h3, h4, h5, h6{font-weight:bold;}
+h1:first-child{margin-top:0;}
+h1{font-size:2em; line-height:1.25em; margin:1.25em 0 -.25em; color:#c00;}
+h2{font-size:1.5em; line-height:1.25em; margin:1em 0 -.5em;}
+h3{font-size:1.25em; line-height:1.2em; margin:.75em 0 -.2em; text-transform:uppercase;}
+h4{font-size:1em; margin:.5em 0 -.5em; font-style:oblique;}
+
+/*--------- Main Content Definitions ---------*/
+
+p{padding:1em 0 0;}
+
+dl{padding:.5em 0 0;}
+dt, dd{padding-top:.5em;}
+dt{float:left; padding-right:.25em; font-weight:bold;}
+
+ul{list-style:square; padding:1em 0 0 1.25em;}
+li{padding:0 0 .5em;}
+
+img{border:thin solid #000;}
+div.image, div.imageRight{
+	display:inline;
+	padding:2em 0 1em;
+	font-size:.75em;
+	width:auto; overflow:auto; /* prevent collapsing div in IE */
+}
+div.image{display:block;}
+div.imageRight{padding-left:1.5em;float:right;}
+
+/************* Layout & Positioned Styles *************/
+
+#wrap, #footer div{
+	width:48em;
+	margin:auto;
+	text-align:left;
+}
+#content{padding:2em .5em 10em;}
+
+#leftColumn, #middleColumn, #rightColumn{float:left; width:30%; line-height:1.25em;}
+#leftColumn{padding:0 3.75% 0 0;}
+#middleColumn{padding:0 1.25%;}
+#rightColumn{padding:0 0 0 3.75%;}
+
+#footer{
+	position:relative;
+	clear:both;
+	margin-top:-8em;
+	height:8em;
+	color:#000;
+}
+#footer div{border-top:.5em solid #000; padding:.25em 0 0}
+#footer div > * {font-size:1.05em; padding:0; line-height:1.8em;}
+#footer ul, #footer li{display:inline;}
+#footer li:first-child{border:none;}
+#footer li{padding:0 .5em; border-left:thin solid #999;}
+
+#header{
+	position:relative;
+	height:11.25em; /*13.5em <- change to this when you add the "sale" link*/
+	padding:2em 0 0;
+	border-bottom:1.5em solid #000;
+}
+#header dl{padding:0;}
+#header h1{
+	z-index:1;
+	position:absolute;
+	top:1em;
+	right:.25em;
+	width:211px;
+	background:url(blackthehackery.png) repeat-y top right;
+	text-indent:-9999em;
+}
+#header h1 a{
+	line-height:6em; /*7em <- change to this when you add the "sale" link*/
+	display:block;
+	border:none;
+}
+#header h1:hover{background:url(crowblackoutline.png) no-repeat center;}
+
+/*--------- Site Navigation ---------*/
+
+#menu{border-bottom:1.5em solid #000;}
+#menu dt{
+	float:none;
+	padding:.25em .5em;
+	border-top:.25em solid #000;
+	text-transform:uppercase;
+}
+#menu a{
+	display:block;
+	border:none;
+	color:#000;
+}
+#menu .selected{background:#c00;}
+#menu .selected a, #menu .selected:hover a, #menu :hover a{color:#fff;}
+#menu :hover a{text-decoration:underline;}
+#menu dt:hover{background:#999;}
+
+/*--------- Misc. ---------*/
+
+.clear:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clear{display:inline-block;}
+* html .clear{height:1%;}
+.clear{display:block;}
+
+
+
+/*---- Stuff added by sim to make chronicle pretty.  14 Jun 2010 ----*/
+
+div.entry {
+	border-left: 1px solid rgb(128, 128, 128);
+        border-right: 1px solid rgb(128, 128, 128);
+        border-top: 1px solid rgb(128, 128, 128);
+        border-bottom: 1px solid rgb(128, 128, 128);
+        margin: 10px 0px;
+	padding: 10px 10px;
+}
+
+div.title {
+}
+
+div.title h1 {
+        margin: 0px -10px;
+        padding: 5px 10px 0px 10px;
+        text-align: center;
+}
+
+div.title a {
+        color: black !important;
+        text-decoration: none !important;
+}
+div.title a:hover {
+        color: black !important;
+        text-decoration: none !important;
+}
+
+div.title h2 {
+        margin: 0 0 1ex 0;
+        padding: 0;
+        text-align: right;
+}
+
+div.entry .title {
+        background-color: #eee;
+        border-bottom: 1px solid rgb(128, 128, 128);
+        font-weight: bold;
+        font-size: 120%;
+        padding: 0.26ex 10px;
+
+}
+
+div.entry div.date {
+        text-align: right;
+}
+
+div.entry div.title a {
+        color: black !important;
+        text-decoration: none !important;
+}
+
+div.entry div.title a:hover {
+        color: black !important;
+        text-decoration: none !important;
+}
+
+div.entry div.tags {
+        border-top: 1px solid rgb(128, 128, 128);
+        font-style: italic;
+        /*font-family: Verdana, Georgia, Arial, sans-serif;*/
+        font-size: 90%;
+        text-align: right;
+}
+div.entry div.tags span.comments {
+        padding-left: 5px;
+        float: left;
+}
+
+div.entry div.xrefs {
+        font-style: italic;
+        /*font-family: Verdana, Georgia, Arial, sans-serif;*/
+        font-size: 90%;
+        text-align: right;
+}
+
+div#sidebar {
+        position: absolute;
+        /*top: 0px;*/
+        top: 200px;
+        right: 0px;
+        width: 165px;
+
+        font-family: sans-serif;
+        font-size: 80%;
+
+        text-align: justify;
+
+        padding: 0 10px;
+
+        background-color: white;
+        border-left: 1px solid rgb(128, 128, 128);
+        margin: 0;
+}
+
+a.news {
+	color:#c00;
+} 
+
+pre {
+        overflow:       auto;
+        background:     rgb(230,230,230);
+        border:         solid;
+        border-width:   thin;
+        padding: 5px  10px;
+}
+
+
+div.padding {
+        padding-top: 15px;
+        padding-bottom: 15px;
+}
+
